@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+form, nav, footer {
+    overflow: hidden !important;
+}
+
+html, body{
+    overflow-y: auto !important;
+}
+
+.logo{
+    position: relative;
+    height: 260px;
+    top: -100px;
+    left: 50px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+nav{
+    position: relative;
+    top: -270px;
+    background-color: whitesmoke;
+    width: 105vw;
+    height: 80px;
+    left: -8px;
+}
+
+nav button{
+    position: relative;
+    background-color: rgb(131, 210, 253);
+    height: 40px;
+    width: 200px;
+    left: 550px;
+    top: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    color: black;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: .3s ease;
+}
+
+nav button:hover{
+    color: white;
+    top: 15px;
+}
+
+nav button:hover{
+    color: white;
+    top: 15px;
+}
+
+
+form{
+    position: relative;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    left: 80%;
+    margin-left: -360px;
+    top: -90px;
+    max-height: 80vh;
+}
+
+input, select, textarea{
+    position: relative;
+    height: 50px;
+    width: 500px;
+    margin: 10px;
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea{
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 10;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea{
+    padding-left: 50px;
+}
+
+input::placeholder, textarea::placeholder{
+    color: black;
+}
+
+input::placeholder, textarea::placeholder{
+    position: relative;
+}
+
+textarea{
+    resize: vertical;
+    max-height: 130px;
+    min-height: 50px;
+}
+
+.kontaktinfo{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    top: -105px;
+    left: 150px;
+}
+
+.sendmeld{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    top: -160px;
+    left: 80%;
+    margin-left: -280px;
+}
+
+form button{
+    position: relative;
+    color: black;
+    background-color: rgb(131, 210, 253);
+    border: 3px solid black;
+    height: 50px;
+    width: 500px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    transition: .3s ease;
+    top: 0;
+}
+
+form button:hover{
+    color: white;
+    top: -15px;
+}
+
+.fa-solid{
+    position: relative;
+    left: 25px;
+    top: 40px;
+    z-index: 15;
+    width: 20px
+}
+
+form textarea{
+    top: 5px;
+    margin-bottom: 40px !important;
+    overflow-y: auto;
+}
+
+.epostadresse{
+    position: absolute;
+    left: 180px;
+    top: 380px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.fafa{
+    position: relative;
+    top: 8px;
+    left: 155px;
+}
+
+.papirfly{
+    position: absolute;
+    height: 300px;
+    width: auto;
+    top: 450px;
+}
+
+.footer{
+    position: absolute;
+    bottom: -300px;
+    width: 100%;
+    height: 200px;
+    background-color: whitesmoke;
+}
+
+.logo2{
+    position: relative;
+    height: 260px;
+    top: -20px;
+    left: 50px;
+    z-index: 10;
+}
+
+.creds{
+    position: relative;
+    left: 400px;
+    top: -155px;
+}
+
+.tittel{
+    position: relative;
+    text-align: center;
+    top: -150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.fa-bars, .fa-xmark{
+    position: relative;
+    top: -120px;
+    z-index: 40;
+    font-size: 40px;
+    left: 3000px;
+}
+
+.h{ /* Kontakt-knapp */
+    position: absolute;
+    z-index: 40;
+    background-color: rgb(131, 210, 253);
+    height: 50px;
+    top: 340px;
+    width: 420px;
+    display: none;
+    left: 15px;
+    border-radius: 20px;
+    border: 2px solid black;
+    color: black;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: .2s ease;
+}
+
+.h:hover{
+    color: white;
+    top: 330px;
+}
+
+.h:nth-child(3) {
+    top: 100px; /* Hjem-knapp */
+}
+
+.h:nth-child(3):hover{
+    color: white;
+    top: 90px;
+}
+
+.h:nth-child(4) {
+    top: 180px; /* Om-knapp */
+}
+
+.h:nth-child(4):hover {
+    color: white;
+    top: 170px;
+}
+
+.h:nth-child(5) {
+    top: 260px; /* Prosjekter-knapp */
+}
+
+.h:nth-child(5):hover {
+    top: 250px; /* Prosjekter-knapp */
+}
+
+
+
+/*  Device reponsivness */
+
+@media screen and (max-width: 2000px){
+
+nav button{
+ left: 1000px;
+}
+}
+
+@media screen and (max-width: 1800px){
+
+nav button{
+    left: 500px;
+}
+}
+
+
+@media screen and (max-width: 1300px){
+
+nav button{
+    left: 400px
+}
+
+}
+
+@media screen and (max-width: 1200px){
+nav button{
+        left: 350px;
+    }
+}
+
+@media screen and (max-width: 1150px){
+nav button{
+    left: 450px;
+    width: 150px;
+    height: 35px;
+}
+}
+
+@media screen and (max-width: 1120px){
+    .papirfly{
+        height: 220px;
+        top: 550px;
+    }
+
+    .kontaktinfo{
+        left: 90px;
+    }
+
+    .fafa{
+        top: 0px;
+        left: 100px;
+    }
+
+    .epostadresse{
+        left: 125px;
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 1054px){
+    nav button{
+        width: 150px;
+        left: 360px;
+    }
+}
+
+@media screen and (max-width: 960px){
+
+.papirfly{
+    display: none;
+}
+
+.fa-bars, .fa-xmark{
+    position: absolute;
+    top: 15px;
+    z-index: 30;
+    font-size: 40px;
+    width: 50px;
+    left: 80%;
+    margin-left: -10px;
+}
+
+.h{
+    left: 50%;
+    margin-left: -209px;
+}
+
+.logo{
+    position: relative;
+    height: 180px;
+    top: -50px;
+    left: 20px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+nav{
+    position: relative;
+    z-index: 5;
+    top: -190px;
+    background-color: whitesmoke;
+    width: 105vw;
+    height: 80px;
+}
+
+nav button{
+    left: 5000px;
+}
+
+.footer{
+    position: absolute;
+    bottom: -500px;
+    width: 100%;
+    height: 150px;
+    background-color: whitesmoke;
+}
+
+.logo2{
+    position: relative;
+    height: 180px;
+    top: -40px;
+    left: 20px;
+    z-index: 10;
+}
+
+.creds{
+    position: relative;
+    left: 30px;
+    top: -80px;
+    font-size: 15px;
+}
+
+form{
+    top: -10px;
+    left: 50%;
+    margin-left: -265px;
+}
+
+.sendmeld{
+    top: -100px;
+    left: 50%;
+    margin-left: -180px;
+}
+
+.kontaktinfo{
+    left: 50%;
+    margin-left: -150px;
+    display: none;
+}
+
+.fafa{
+    left: 50%;
+    margin-left: -140px;
+    display: none !important;
+}
+
+.epostadresse{
+    top: 295px;
+    left: 50%;
+    margin-left: -100px;
+    display: none;
+}
+
+
+}
+
+@media screen and (max-width: 520px){
+    form button, form input, form textarea{
+        width: 350px;
+        height: 50px;
+    }
+
+    form{
+        left: 50%;
+        margin-left: -182px;
+    }
+}
+
+@media screen and (max-width: 440px){
+
+.logo{
+    position: relative;
+    height: 180px;
+    top: -50px;
+    left: 20px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+nav{
+    position: relative;
+    z-index: 5;
+    top: -190px;
+    background-color: whitesmoke;
+    width: 105vw;
+    height: 80px;
+    left: -8px;
+}
+
+.creds{
+    position: relative;
+    left: 30px;
+    top: -80px;
+    font-size: 15px;
+}
+}
+
+@media screen and (max-width: 420px){
+
+.creds{
+    font-size: 12px;
+}
+
+.tekst{
+    font-size: 15px;
+    width: 300px;
+    margin-left: -150px;
+}
+
+.h{
+    width: 300px;
+    margin-left: -150px;
+}
+
+}

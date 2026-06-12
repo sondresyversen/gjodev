@@ -1,0 +1,569 @@
+*{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    position: relative;
+    height: 260px;
+    top: -100px;
+    left: 50px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+nav{
+    position: relative;
+    top: -270px;
+    background-color: whitesmoke;
+    width: 105vw;
+    height: 80px;
+    left: -8px;
+}
+
+nav button{
+    position: relative;
+    background-color: rgb(131, 210, 253);
+    height: 40px;
+    width: 200px;
+    left: 550px;
+    top: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    color: black;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: .3s ease;
+}
+
+nav button:hover{
+    color: white;
+    top: 15px;
+}
+
+html{
+    overflow-y: scroll;
+}
+
+.prosjekter{
+    position: relative;
+    text-align: center;
+    top: -180px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.footer{
+    overflow-y: hidden;
+    position: absolute;
+    width: 100vw;
+    height: 200px;
+    background-color: whitesmoke;
+    bottom: 80%;
+    margin-bottom: -1000px;
+}
+
+.logo2{
+    position: relative;
+    height: 260px;
+    top: -20px;
+    left: 50px;
+    z-index: 10;
+}
+
+.creds{
+    position: relative;
+    left: 400px;
+    top: -155px;
+}
+
+.boxtitle{
+    position: relative;
+    top: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.prosjekt1bilde{
+    position: relative;
+    height: 400px;
+    width: auto;
+}
+
+.box{
+    position: absolute;
+    background-color: rgb(131, 210, 253);
+    height: 435px;
+    width: 600px;
+    border: 4px solid black;
+    overflow-y: hidden;
+    border-radius: 15px;
+    top: 300px;
+    left: 100px;
+    transition: .3s ease;
+}
+
+.box:hover{
+    color: white;
+    top: 280px;
+}
+
+.box1{
+    position: absolute;
+    background-color: rgb(131, 210, 253);
+    height: 435px;
+    width: 600px;
+    border: 4px solid black;
+    border-radius: 15px;
+    overflow-y: hidden;
+    left: 800px;
+    top: 300px;
+    transition: .3s ease;
+}
+
+.creds{
+    position: relative;
+    left: 400px;
+    top: -155px;
+}
+
+.fa-bars, .fa-xmark{
+    position: relative;
+    top: -120px;
+    z-index: 40;
+    font-size: 40px;
+    left: 3000px;
+}
+
+.box1:hover{
+    color: white;
+    top: 280px;
+}
+
+.h{ /* Kontakt-knapp */
+    position: absolute;
+    z-index: 30;
+    background-color: rgb(131, 210, 253);
+    height: 50px;
+    top: 340px;
+    width: 400px;
+    display: none;
+    left: 15px;
+    border-radius: 20px;
+    border: 2px solid black;
+    color: black;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: .2s ease;
+}
+
+.h:hover{
+    color: white;
+    top: 330px;
+}
+
+.h:nth-child(3) {
+    top: 100px; /* Hjem-knapp */
+}
+
+.h:nth-child(3):hover{
+    color: white;
+    top: 90px;
+}
+
+.h:nth-child(4) {
+    top: 180px; /* Om-knapp */
+}
+
+.h:nth-child(4):hover {
+    color: white;
+    top: 170px;
+}
+
+.h:nth-child(5) {
+    top: 260px; /* Prosjekter-knapp */
+}
+
+.h:nth-child(5):hover {
+    top: 250px; /* Prosjekter-knapp */
+}
+
+/* Mobile Responsive Code */
+
+
+
+@media screen and (max-width: 2000px){
+
+nav button{
+ left: 1000px;
+}
+
+.box{
+    left: 350px;
+}
+
+.box1{
+    left: 1050px;
+}
+}
+
+@media screen and (max-width: 1920px){
+    .box{
+        left: 300px;
+    }
+
+    .box1{
+        left: 1000px;
+    }
+}
+
+@media screen and (max-width: 1800px){
+
+nav button{
+    left: 500px;
+}
+}
+
+.box{
+        left: 250px;
+}
+
+.box1{
+        left: 950px;
+}
+
+@media screen and (max-width: 1680px){
+.box{
+        left: 150px;
+}
+
+.box1{
+        left: 850px;
+}
+}
+
+@media screen and (max-width: 1530px){
+.box{
+        left: 100px;
+}
+
+.box1{
+        left: 800px;
+}
+}
+
+@media screen and (max-width: 1460px){
+.box{
+        left: 60px;
+}
+
+.box1{
+        left: 780px;
+}
+}
+
+@media screen and (max-width: 1400px){
+
+.box{
+    width: 450px;
+    height: 350px;
+    left: 170px;
+}
+
+.prosjekt1bilde{
+    height: 300px;
+    top: 15px;
+}
+
+.box1{
+    width: 450px;
+    height: 350px;
+}
+
+}
+
+@media screen and (max-width: 1300px){
+
+.box{
+    left: 150px;
+}
+
+.box1{
+    left: 700px;
+}
+
+nav button{
+    left: 400px
+}
+}
+
+@media screen and (max-width: 1200px){
+
+.box{
+    left: 100px;
+}
+
+.box1{
+    left: 650px;
+}
+
+nav button{
+    left: 350px;
+}
+}
+
+@media screen and (max-width: 1150px){
+.box{
+    left: 80px;
+}
+
+.box1{
+    left: 600px;
+}
+
+nav button{
+    left: 450px;
+    width: 150px;
+    height: 35px;
+}
+}
+
+@media screen and (max-width: 1054px){
+.box{
+    left: 10px;
+}
+
+.box1{
+    left: 500px;
+}
+
+    nav button{
+        width: 150px;
+        left: 360px;
+    }
+}
+
+@media screen and (max-width: 960px){
+.logo{
+    position: relative;
+    height: 180px;
+    top: -55px;
+    left: 20px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.prosjekt1bilde{
+    position: relative;
+    height: 400px;
+    width: auto;
+}
+
+
+nav{
+    position: relative;
+    z-index: 5;
+    top: -190px;
+    background-color: whitesmoke;
+    width: 105vw;
+    height: 80px;
+}
+
+nav button{
+    left: 5000px;
+}
+
+.footer{
+    overflow-y: hidden;
+    position: absolute;
+    bottom: 80%;
+    margin-bottom: -1400px;
+    width: 100%;
+    height: 150px;
+    background-color: whitesmoke;
+}
+
+.logo2{
+    position: relative;
+    height: 180px;
+    top: -40px;
+    left: 20px;
+    z-index: 10;
+}
+
+.creds{
+    position: relative;
+    left: 30px;
+    top: -80px;
+    font-size: 15px;
+}
+
+.fa-bars, .fa-xmark{
+    position: absolute;
+    top: 15px;
+    z-index: 30;
+    font-size: 40px;
+    left: 80%;
+    margin-left: -10px;
+}
+
+.h{
+    left: 50%;
+    margin-left: -200px;
+}
+
+.box{
+    position: absolute;
+    background-color: rgb(131, 210, 253);
+    border: 4px solid black;
+    height: 435px;
+    width: 600px;
+    border-radius: 15px;
+    top: 270px;
+    left: 50%;
+    margin-left: -305px;
+    transition: .3s ease;
+}
+
+.box:hover{
+    top: 250px;
+}
+
+.box1{
+    position: absolute;
+    background-color: rgb(131, 210, 253);
+    height: 435px;
+    width: 600px;
+    border: 4px solid black;
+    border-radius: 15px;
+    left: 50%;
+    margin-left: -305px;
+    top: 760px;
+    transition: .3s ease;
+}
+
+.box1:hover{
+    top: 740px;
+}
+
+}
+
+@media screen and (max-width: 640px){
+.box{
+    height:375px;
+    width: 500px;
+    left: 50%;
+    margin-left: -252px;
+}
+
+.prosjekt1bilde{
+    position: relative;
+    height: 330px;
+    width: auto;
+}
+
+.box1{
+    height:375px;
+    width: 500px;
+    left: 50%;
+    margin-left: -252px;
+}
+}
+
+@media screen and (max-width: 512px){
+   .box{
+    height:275px;
+    width: 340px;
+    left: 50%;
+    margin-left: -170px;
+}
+
+.prosjekt1bilde{
+    position: relative;
+    height: 230px;
+    width: auto;
+}
+
+.box1{
+    top: 600px;
+    height:275px;
+    width: 340px;
+    left: 50%;
+    margin-left: -170px;
+} 
+
+.box1:hover{
+    top: 580px;
+}
+}
+
+@media screen and (max-width: 440px){
+
+.box{
+    height:250px;
+    width: 330px;
+    left: 50%;
+    margin-left: -170px;
+}
+
+.prosjekt1bilde{
+    position: relative;
+    height: 220px;
+    top: 5px;
+    width: auto;
+}
+
+.box1{
+    top: 600px;
+    height:250px;
+    width: 330px;
+    left: 50%;
+    margin-left: -170px;
+} 
+
+.logo{
+    position: relative;
+    height: 180px;
+    top: -50px;
+    left: 20px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+nav{
+    position: relative;
+    z-index: 5;
+    top: -190px;
+    background-color: whitesmoke;
+    width: 105vw;
+    height: 80px;
+    left: -8px;
+}
+
+.creds{
+    position: relative;
+    left: 30px;
+    top: -80px;
+    font-size: 15px;
+}
+}
+
+@media screen and (max-width: 410px){
+
+.creds{
+    font-size: 12px;
+}
+
+.tekst{
+    font-size: 15px;
+    width: 300px;
+    margin-left: -150px;
+}
+
+.h{
+    width: 300px;
+    margin-left: -150px;
+}
+
+}
