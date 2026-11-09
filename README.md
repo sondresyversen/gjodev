@@ -1,6 +1,18 @@
-# GjøDev Website
-Responsive mobile friendly website developed using HTML, CSS and JavaScript.
+# GjøDev 🌐
 
-Link: https://gjodev.no
+A responsive, mobile-friendly website developed as part of my IT studies at Gjøvik VGS. This project was developed in 2025.
 
-🌐 Go check out my portfolio at https://syversen.dev
+### Features
+- **Mobile-First Design:** Fully responsive layout that adapts to smartphones, tablets, and desktops.
+
+### Built With
+- HTML5
+- CSS3
+- JavaScript
+
+### How to Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sondresyversen/gjodev
+   ```
+2. Open `index.html` in any modern web browser.
