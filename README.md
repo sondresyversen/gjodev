@@ -15,4 +15,4 @@ A responsive, mobile-friendly website developed as part of my IT studies at Gjø
    ```bash
    git clone https://github.com/sondresyversen/gjodev
    ```
-2. Open `index.html` in any modern web browser.
+2. Open `index.html` in any modern web browser to launch the homepage and navigate through the website.
